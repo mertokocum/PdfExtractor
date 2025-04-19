@@ -6,7 +6,7 @@ import os
 class PDFSplitterApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("PDF Sayfa Ayırıcı")
+        self.root.title("PDF Page Extractor")
 
         self.pdf_path = None
 
